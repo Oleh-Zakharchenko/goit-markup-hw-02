@@ -1,0 +1,126 @@
+/* ================ COMMON STYLES ================ */
+ul {
+  list-style-type: none;
+}
+a {
+  text-decoration: none;
+  color: inherit;
+}
+button {
+  cursor: pointer;
+}
+body {
+  font-family: Roboto, sans-serif;
+  color: #2e2f42;
+  background-color: #ffffff;
+}
+/* ================ HEADER STYLES ================ */
+.header-nav {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+}
+.logo {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+}
+.logo-part {
+  color: #4d5ae5;
+}
+.studio-link:hover,
+.studio-link:active,
+.studio-link:focus {
+  color: #404bbf;
+}
+
+.nav-link:hover,
+.nav-link:focus {
+  color: #404bbf;
+}
+/* ================ ADDRESS STYLES ================ */
+.contact-nav {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #434455;
+}
+/* ================ HERO STYLES ================ */
+.main-banner {
+  font-eight: 700;
+  font-size: 56px;
+  line-height: 1.07;
+  letter-spacing: 0.02em;
+  color: #ffffff;
+  background: #2e2f42;
+}
+.order-btn {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: #ffffff;
+  background: #4d5ae5;
+}
+.order-btn:hover,
+.order-btn:focus {
+  background: #404bbf;
+}
+/* ================ FOCUS STYLES ================ */
+.company-focus h3 {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+}
+.company-focus p {
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #434455;
+}
+/* ================ OUR TEAM STYLE ================ */
+.team-section {
+  background-color: #f4f4fd;
+}
+.title-name {
+  font-size: 36px;
+  line-height: 1.11;
+  letter-spacing: 0.02em;
+}
+.subtitle {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  background: #ffffff;
+}
+.subtitle-text {
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #434455;
+  background: #ffffff;
+}
+/* ================ FOOTER STYLE ================ */
+.page-bottom {
+  background: #2e2f42;
+}
+.footer-logo {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  color: #f4f4fd;
+}
+.footer-text {
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #f4f4fd;
+}
