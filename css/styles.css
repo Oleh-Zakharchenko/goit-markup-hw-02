@@ -11,7 +11,7 @@ button {
 }
 body {
   font-family: Roboto, sans-serif;
-  color: #2e2f42;
+  color: #434455;
   background-color: #ffffff;
 }
 /* ================ HEADER STYLES ================ */
@@ -20,6 +20,7 @@ body {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
+  color: #2e2f42;
 }
 .logo {
   font-family: 'Raleway', sans-serif;
@@ -27,13 +28,15 @@ body {
   font-size: 18px;
   line-height: 1.17;
   letter-spacing: 0.03em;
-}
-.logo-part {
+  text-transform: uppercase;
   color: #4d5ae5;
 }
-.studio-link:hover,
-.studio-link:active,
-.studio-link:focus {
+.logo-part {
+  color: #2e2f42;
+}
+.nav-link:hover,
+.nav-link:active,
+.nav-link:focus {
   color: #404bbf;
 }
 
@@ -43,20 +46,22 @@ body {
 }
 /* ================ ADDRESS STYLES ================ */
 .contact-nav {
+  font-style: normal;
   font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  color: #434455;
 }
 /* ================ HERO STYLES ================ */
 .main-banner {
-  font-eight: 700;
+  background: #2e2f42;
+}
+.main-title {
   font-size: 56px;
   line-height: 1.07;
   letter-spacing: 0.02em;
+  text-align: center;
   color: #ffffff;
-  background: #2e2f42;
 }
 .order-btn {
   font-weight: 500;
@@ -71,40 +76,53 @@ body {
   background: #404bbf;
 }
 /* ================ FOCUS STYLES ================ */
-.company-focus h3 {
+.focus-title {
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
   letter-spacing: 0.02em;
+  color: #2e2f42;
 }
-.company-focus p {
+.focus-text {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  color: #434455;
 }
 /* ================ OUR TEAM STYLE ================ */
 .team-section {
   background-color: #f4f4fd;
 }
-.title-name {
+.team-list {
+  background: #ffffff;
+}
+.title-team {
   font-size: 36px;
   line-height: 1.11;
   letter-spacing: 0.02em;
+  text-align: center;
+  text-transform: capitalize;
+  color: #2e2f42;
+}
+/* ================ PORTFOLIO STYLE ================ */
+.title-portfolio {
+  font-size: 36px;
+  line-height: 1.11;
+  letter-spacing: 0.02em;
+  text-align: center;
+  text-transform: capitalize;
+  color: #2e2f42;
 }
 .subtitle {
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
   letter-spacing: 0.02em;
-  background: #ffffff;
+  color: #2e2f42;
 }
 .subtitle-text {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  color: #434455;
-  background: #ffffff;
 }
 /* ================ FOOTER STYLE ================ */
 .page-bottom {
@@ -116,6 +134,16 @@ body {
   font-size: 18px;
   line-height: 1.17;
   letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #4d5ae5;
+}
+.footer-logo-part {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
   color: #f4f4fd;
 }
 .footer-text {
